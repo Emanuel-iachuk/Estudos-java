@@ -1,27 +1,25 @@
 package academy.devdojo.maratonajava.introducao;
 
-import java.util.Scanner;
-
 public class Aula002TiposPrimitivos {
-    static Scanner scn = new Scanner(System.in);
-
+    /*Tipos primitivos são formas de guardar um valor na memória os tipos são:
+    * int, byte, short, long, float, double boolean, char
+    * Perceba que todos começão com letra maiúscula*/
     public static void main(String[] args) {
+        byte numeroPequeno = 127;
+        short numero = 32000;
+        int numeroMedio = 2000000000; // Padrão
+        long numeroGigante = 9000000000000000000L; //O (L) no final e para dizer que é grande
 
-            while (true) {
-                System.out.print("Escolha seu sexo Masculino(M), Feminino(F): ");
-                char sexo = scn.next().charAt(0);
-                char sexoMaiusculo = Character.toUpperCase(sexo);
-                if (sexoMaiusculo == 'M') {
-                    System.out.println("Sexo Masculino selecionado.");
-                    break;
-                } else if (sexoMaiusculo == 'F') {
-                    System.out.println("Sexo Feminino selecionado.");
-                    break;
-                } else {
-                    System.out.println("Valor invalido");
-                }
-            }
-            scn.close();
+        float decimal = 12999999;
+        double decimalGrande = 2000000000.000000000;
+
+        boolean verdadeiroOuFalso = true; // verdadeiro -> false = falso
+        char umCaracter = 'A';
+
+        // String por, outro lado não e um tipo primitivo e sim um tipo de reférencia ou Objeto
+
+        String nome = "Emanuel iachuk";
+
 
     }
 }
