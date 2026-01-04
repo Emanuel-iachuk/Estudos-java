@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.introducao;
 
 import java.util.Scanner;
 
-public class  {
+public class  Aula05EstruturasCondicionais05 {
     static Scanner scn = new Scanner(System.in);
 
     public static void main(String[] args) {
