@@ -2,6 +2,7 @@ package academy.devdojo.maratonajava.introducao;
 
 import java.util.stream.IntStream;
 
+
 public class Aula06EstruturasDeRepeticao01 {
     /**
      * DEMONSTRAÇÃO COMPLETA: 5 estruturas de repetição Java
