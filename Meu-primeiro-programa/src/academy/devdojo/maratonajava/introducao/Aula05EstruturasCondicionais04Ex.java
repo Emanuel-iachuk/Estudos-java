@@ -1,5 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
+
 /**
  * Calcula imposto de renda progressivo brasileiro com 3 faixas etárias
  * Exemplo: R$100.000 → aplica 9,7% até R$34.712 + 37,35% até R$68.507 + 49,5% no excedente
