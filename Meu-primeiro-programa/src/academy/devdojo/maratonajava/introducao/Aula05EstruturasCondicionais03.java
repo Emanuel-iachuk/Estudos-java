@@ -1,5 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
+
 public class Aula05EstruturasCondicionais03 {
     public static void main(String[] args) {
         // Se o salário for maior de 4000 você pode doar
