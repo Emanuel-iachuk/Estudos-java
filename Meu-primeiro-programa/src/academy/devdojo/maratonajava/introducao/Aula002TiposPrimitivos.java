@@ -1,5 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
+
 public class Aula002TiposPrimitivos {
     /*Tipos primitivos são formas de guardar um valor na memória os tipos são:
     * int, byte, short, long, float, double boolean, char
