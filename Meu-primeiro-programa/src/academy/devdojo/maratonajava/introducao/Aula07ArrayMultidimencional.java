@@ -26,5 +26,25 @@ public class Aula07ArrayMultidimencional {
         double mediaSala = somaMediaSala / 3;
         System.out.println("Media da sala: "+mediaSala);
 
+        System.out.println("=".repeat(50));
+
+        double mediaSalaFinal = 0;
+
+        for (double[] nota : notas) {
+            double mediaFinal = 0;
+            for (double v : nota) {
+                mediaFinal += v;
+            }
+            double mediaAluno = mediaFinal / 3;
+            System.out.println("-> " + mediaAluno);
+
+            mediaSalaFinal += mediaAluno;
+
+
+        }
+        mediaSalaFinal /= 3;
+        System.out.printf("-> %.2f \n", mediaSalaFinal);
+
+
     }
 }
